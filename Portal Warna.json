@@ -838,7 +838,7 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.2817259932079566,
-        "windowMask": false,
+        "windowMask": true,
         "selectedLayer": ""
       },
       "objectsGroups": [],
@@ -3791,7 +3791,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4789341884535246,
+        "zoomFactor": 0.43357743047023733,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3808,7 +3808,33 @@
           ]
         }
       ],
-      "variables": [],
+      "variables": [
+        {
+          "name": "Counter",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Counter2",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "VarClick",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "warnaPortal",
+          "type": "array",
+          "children": []
+        },
+        {
+          "name": "Counter3",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -3852,7 +3878,7 @@
           "persistentUuid": "924a0306-0f4b-43aa-b65e-963b262e3431",
           "width": 0,
           "x": 840,
-          "y": 197,
+          "y": 155,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3964,7 +3990,7 @@
           "persistentUuid": "f1576611-4a7a-40af-8f11-054939e36493",
           "width": 0,
           "x": 481,
-          "y": 198,
+          "y": 156,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -3980,7 +4006,7 @@
           "persistentUuid": "fa5a8f22-7679-47f8-9bb7-d35434b12a2f",
           "width": 0,
           "x": 126,
-          "y": 198,
+          "y": 156,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4156,7 +4182,7 @@
           "persistentUuid": "7be747b5-e709-40c9-80bc-a2124accb0e4",
           "width": 0,
           "x": 945,
-          "y": 309,
+          "y": 267,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -4171,8 +4197,8 @@
           "name": "SpawnerCahaya",
           "persistentUuid": "193abc4c-6a3f-4410-b4a1-d711e6fa62c3",
           "width": 0,
-          "x": 230,
-          "y": 309,
+          "x": 583,
+          "y": 267,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -4187,8 +4213,8 @@
           "name": "SpawnerCahaya",
           "persistentUuid": "6b74ea9d-c7c0-4008-a553-7778a1bf9ea3",
           "width": 0,
-          "x": 583,
-          "y": 309,
+          "x": 230,
+          "y": 267,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -4661,14 +4687,35 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Kardus",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "Click",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "x",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "y",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": false
+            },
             {
               "name": "Tween",
               "type": "Tween::TweenBehavior"
@@ -4684,7 +4731,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": true,
+                      "hasCustomCollisionMask": false,
                       "image": "assets\\kardus.png",
                       "points": [],
                       "originPoint": {
@@ -4698,26 +4745,7 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 228,
-                            "y": 0
-                          },
-                          {
-                            "x": 228,
-                            "y": 169
-                          },
-                          {
-                            "x": 0,
-                            "y": 169
-                          }
-                        ]
-                      ]
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -6871,17 +6899,6 @@
           ]
         },
         {
-          "assetStoreId": "",
-          "height": 32,
-          "name": "NewTiledSprite",
-          "texture": "",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 32,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Cahaya",
@@ -7274,9 +7291,6 @@
             "objectName": "Portal"
           },
           {
-            "objectName": "NewTiledSprite"
-          },
-          {
             "objectName": "Cahaya"
           },
           {
@@ -7422,6 +7436,48 @@
                 "BubbleSetting",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Kardus",
+                "x",
+                "=",
+                "535"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Kardus",
+                "y",
+                "=",
+                "470"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Counter",
+                "=",
+                "RandomInRange(1,2)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Counter2",
+                "=",
+                "RandomFloatInRange(0,4)"
+              ]
             }
           ],
           "events": [
@@ -7439,6 +7495,16 @@
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Counter",
+                        "+",
+                        "1"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "ShowLayer"
@@ -7472,6 +7538,17 @@
                         "\"linear\"",
                         "1",
                         ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Soal",
+                        "Animation",
+                        "=",
+                        "Counter"
                       ]
                     }
                   ]
@@ -7556,14 +7633,9 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 27,
+          "colorG": 2,
+          "colorR": 208,
           "creationTime": 0,
           "folded": true,
           "name": "Setting & Home",
@@ -7683,9 +7755,9 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 35,
+          "colorG": 166,
+          "colorR": 245,
           "creationTime": 0,
           "folded": true,
           "name": "Warna",
@@ -7743,11 +7815,10 @@
           "parameters": []
         },
         {
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
+          "colorB": 28,
+          "colorG": 231,
+          "colorR": 248,
           "creationTime": 0,
-          "folded": true,
           "name": "Portal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7758,9 +7829,14 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "SceneInstancesCount"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "",
+                    "Portal",
+                    "<",
+                    "3"
+                  ]
                 }
               ],
               "actions": [
@@ -7796,6 +7872,36 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Portal",
+                    "Animation",
+                    "=",
+                    "Counter2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Counter2",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PushString"
+                  },
+                  "parameters": [
+                    "warnaPortal",
+                    "Portal.Animation::Name()"
+                  ]
                 }
               ]
             },
@@ -7805,9 +7911,14 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
+                    "value": "SceneInstancesCount"
                   },
-                  "parameters": []
+                  "parameters": [
+                    "",
+                    "Cahaya",
+                    "<",
+                    "3"
+                  ]
                 }
               ],
               "actions": [
@@ -7842,6 +7953,93 @@
                     "Opacity",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Cahaya",
+                    "Animation",
+                    "=",
+                    "warnaPortal[Counter3]"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Counter3",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 42,
+          "colorG": 87,
+          "colorR": 139,
+          "creationTime": 0,
+          "name": "Drag",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "Kardus",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "VarClick",
+                    "=",
+                    "Kardus.Click"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DraggableBehavior::Dropped"
+                  },
+                  "parameters": [
+                    "Kardus",
+                    "Draggable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Kardus",
+                    "=",
+                    "Kardus.x",
+                    "=",
+                    "Kardus.y"
                   ]
                 }
               ]
