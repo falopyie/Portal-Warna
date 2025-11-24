@@ -2618,7 +2618,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3791,7 +3790,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.43357743047023733,
+        "zoomFactor": 0.5117784035210177,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -3831,6 +3830,11 @@
         },
         {
           "name": "Counter3",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Counter4",
           "type": "number",
           "value": 0
         }
@@ -3973,8 +3977,8 @@
           "name": "SpawnerWarna",
           "persistentUuid": "c110db05-db5a-42fe-ae61-b5682e4aef46",
           "width": 0,
-          "x": 1090,
-          "y": 549,
+          "x": 1155,
+          "y": 580,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -4785,8 +4789,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 16,
+                        "y": 16
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5393,8 +5397,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 68,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5441,8 +5445,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 68,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5489,8 +5493,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 68,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5537,8 +5541,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 68,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5585,8 +5589,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 68,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5633,8 +5637,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 85,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5681,8 +5685,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 85,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5729,8 +5733,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 85,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5777,8 +5781,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 85,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5825,8 +5829,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 85,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5873,8 +5877,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 84.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5921,8 +5925,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 84.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -5969,8 +5973,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 84.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6017,8 +6021,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 84.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6065,8 +6069,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 84.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6113,8 +6117,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 97.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6161,8 +6165,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 97.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6209,8 +6213,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 97.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6257,8 +6261,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 97.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6305,8 +6309,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 97.5,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6353,8 +6357,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 89,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6401,8 +6405,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 89,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6449,8 +6453,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 89,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6497,8 +6501,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 89,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -6545,8 +6549,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 89,
+                        "y": 24
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -7478,6 +7482,16 @@
                 "=",
                 "RandomFloatInRange(0,4)"
               ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Counter4",
+                "=",
+                "RandomInRange(0,24)"
+              ]
             }
           ],
           "events": [
@@ -7759,7 +7773,6 @@
           "colorG": 166,
           "colorR": 245,
           "creationTime": 0,
-          "folded": true,
           "name": "Warna",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7775,6 +7788,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Counter4",
+                    "+",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Create"
@@ -7808,6 +7831,17 @@
                     "=",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Warna",
+                    "Animation",
+                    "=",
+                    "Counter4"
+                  ]
                 }
               ]
             }
@@ -7819,6 +7853,7 @@
           "colorG": 231,
           "colorR": 248,
           "creationTime": 0,
+          "folded": true,
           "name": "Portal",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
