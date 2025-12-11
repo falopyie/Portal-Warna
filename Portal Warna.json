@@ -771,6 +771,54 @@
         "metadata": "",
         "name": "data.json",
         "userAdded": false
+      },
+      {
+        "file": "assets/selamat.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\selamat.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/restart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\restart.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/kembali.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\kembali.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/lanjutkan.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\lanjutkan.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/POIN SAYA.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\POIN SAYA.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/POIN tertinggi.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\POIN tertinggi.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2955,7 +3003,7 @@
               },
               "parameters": [
                 "",
-                "\"Loading\"",
+                "\"Loading3Portal\"",
                 ""
               ]
             }
@@ -3127,8 +3175,680 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Loading",
-      "name": "Loading",
+      "mangledName": "LoadingHome",
+      "name": "LoadingHome",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.546875,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "Counter",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background_loading",
+          "persistentUuid": "18606372-3c64-449c-bea7-07316d9b7727",
+          "width": 0,
+          "x": -16,
+          "y": -14,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "f35b8687-0f67-4ce3-ac94-25d3c323d0ff",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Loading",
+          "persistentUuid": "6bbbc8c1-21c1-4a8a-93e2-0cdcc4e68ce7",
+          "width": 0,
+          "x": 344,
+          "y": 300,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background_loading",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\background-loading.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 3
+                          },
+                          {
+                            "x": 1310,
+                            "y": 3
+                          },
+                          {
+                            "x": 1310,
+                            "y": 737
+                          },
+                          {
+                            "x": 3,
+                            "y": 737
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 0
+                          },
+                          {
+                            "x": 1280,
+                            "y": 720
+                          },
+                          {
+                            "x": 0,
+                            "y": 720
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Loading",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\loading1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 562,
+                            "y": 0
+                          },
+                          {
+                            "x": 562,
+                            "y": 96
+                          },
+                          {
+                            "x": 0,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\loading2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 562,
+                            "y": 0
+                          },
+                          {
+                            "x": 562,
+                            "y": 96
+                          },
+                          {
+                            "x": 0,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\loading3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 562,
+                            "y": 0
+                          },
+                          {
+                            "x": 562,
+                            "y": 96
+                          },
+                          {
+                            "x": 0,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "4",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\loading4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 562,
+                            "y": 0
+                          },
+                          {
+                            "x": 562,
+                            "y": 96
+                          },
+                          {
+                            "x": 0,
+                            "y": 96
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background_loading"
+          },
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "Loading"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Loading\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Sceene\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Loading\"",
+                ">",
+                "0.5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Loading\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Counter",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Loading",
+                "Animation",
+                "=",
+                "Counter"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Loading",
+                "Animation",
+                "=",
+                "\"4\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Counter",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Loading",
+                "Animation",
+                "=",
+                "Counter"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Sceene\"",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Home\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Loading3Portal",
+      "name": "Loading3Portal",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -3816,7 +4536,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41943397827590667,
+        "zoomFactor": 0.3553434558816989,
         "windowMask": false
       },
       "objectsGroups": [
@@ -3880,7 +4600,7 @@
         {
           "name": "timer",
           "type": "number",
-          "value": 10
+          "value": 90
         },
         {
           "name": "warna",
@@ -4172,22 +4892,6 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "Setting",
-          "name": "Simpan",
-          "persistentUuid": "683e47a3-0c49-4916-88b4-f556065f0a2f",
-          "width": 0,
-          "x": 519,
-          "y": -98,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
           "layer": "Soal",
           "name": "BubbleSoal",
           "persistentUuid": "54061c1f-09bc-4040-b54f-f08e1f22bda2",
@@ -4307,6 +5011,182 @@
           "x": 538,
           "y": 666,
           "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ending",
+          "name": "BackgroundSetting",
+          "persistentUuid": "c566a7d0-549b-4997-9bf1-acd7cb623906",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ending",
+          "name": "Slamet",
+          "persistentUuid": "2bce9d61-d302-45b2-8f09-7faa0674721d",
+          "width": 0,
+          "x": 481,
+          "y": -504,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ending",
+          "name": "Restart",
+          "persistentUuid": "3492d66c-ddac-4cd4-8843-f1091284d64e",
+          "width": 0,
+          "x": 483,
+          "y": -109,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ending",
+          "name": "Kembali",
+          "persistentUuid": "b9aed49c-811b-45f2-89e8-03e50adc896d",
+          "width": 0,
+          "x": 583,
+          "y": -113,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ending",
+          "name": "PoinSaya",
+          "persistentUuid": "a5c1ee75-8600-447f-b95a-6cd02fdd1a46",
+          "width": 0,
+          "x": 544,
+          "y": -384,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ending",
+          "name": "PoinTertinggi",
+          "persistentUuid": "0e27354e-6498-4268-ad9e-fd55f953f8a6",
+          "width": 0,
+          "x": 491,
+          "y": -242,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ending",
+          "name": "ScoreTertinggi",
+          "persistentUuid": "848ad8cd-6fe8-4650-bc01-8f31e9c9cdcc",
+          "width": 0,
+          "x": 596,
+          "y": -192,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ending",
+          "name": "ScoreResult",
+          "persistentUuid": "fdefe4fa-6442-4c94-bf35-5e8371842c8a",
+          "width": 0,
+          "x": 596,
+          "y": -335,
+          "zOrder": 41,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Ending",
+          "name": "BubbleEnding",
+          "persistentUuid": "5b85f5e5-ff26-47e6-92c5-32e6c77e97f7",
+          "width": 0,
+          "x": 429,
+          "y": -537,
+          "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Setting",
+          "name": "Restart2",
+          "persistentUuid": "d4e8a7a6-d935-44a8-8de3-104d12cc27c0",
+          "width": 0,
+          "x": 477,
+          "y": -96,
+          "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Setting",
+          "name": "Lanjutkan",
+          "persistentUuid": "6b3eb5dc-e777-4f41-b135-5d53c4ff9720",
+          "width": 0,
+          "x": 592,
+          "y": -96,
+          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7508,6 +8388,762 @@
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Slamet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\selamat.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 352,
+                            "y": 0
+                          },
+                          {
+                            "x": 352,
+                            "y": 67
+                          },
+                          {
+                            "x": 0,
+                            "y": 67
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Restart",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1.1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "isFolded": true,
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\restart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 90,
+                            "y": 0
+                          },
+                          {
+                            "x": 90,
+                            "y": 73
+                          },
+                          {
+                            "x": 1,
+                            "y": 73
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Kembali",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1.1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "isFolded": true,
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\kembali.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 255,
+                            "y": 0
+                          },
+                          {
+                            "x": 255,
+                            "y": 87
+                          },
+                          {
+                            "x": 1,
+                            "y": 87
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Lanjutkan",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1.1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\lanjutkan.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 0
+                          },
+                          {
+                            "x": 214,
+                            "y": 0
+                          },
+                          {
+                            "x": 214,
+                            "y": 73
+                          },
+                          {
+                            "x": 2,
+                            "y": 73
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PoinSaya",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\POIN SAYA.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 221,
+                            "y": 0
+                          },
+                          {
+                            "x": 221,
+                            "y": 28
+                          },
+                          {
+                            "x": 0,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PoinTertinggi",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\POIN tertinggi.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 331,
+                            "y": 0
+                          },
+                          {
+                            "x": 331,
+                            "y": 28
+                          },
+                          {
+                            "x": 0,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ScoreTertinggi",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ],
+          "string": "0",
+          "font": "assets\\spaceboy\\SPACEBOY.TTF",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "assets\\spaceboy\\SPACEBOY.TTF",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "ScoreResult",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            }
+          ],
+          "string": "0",
+          "font": "assets\\spaceboy\\SPACEBOY.TTF",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "0",
+            "font": "assets\\spaceboy\\SPACEBOY.TTF",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BubbleEnding",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\bubble-setting.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 451,
+                            "y": 0
+                          },
+                          {
+                            "x": 451,
+                            "y": 476
+                          },
+                          {
+                            "x": 0,
+                            "y": 476
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Restart2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "isFolded": true,
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            },
+            {
+              "name": "ButtonScaleTween",
+              "type": "ButtonStates::ButtonScaleTween",
+              "Scale": "Scale",
+              "ButtonFSM": "ButtonFSM",
+              "Tween": "Tween",
+              "IdleScale": 1,
+              "FocusedScale": 1.1,
+              "FadeInDuration": 0.1,
+              "FadeOutDuration": 0.2,
+              "PressedScale": 0.95,
+              "FadeInEasing": "easeInOutQuad",
+              "FadeOutEasing": "easeInOutQuad",
+              "PreviousState": "Idle"
+            },
+            {
+              "isFolded": true,
+              "name": "Sticker",
+              "type": "Sticker::Sticker",
+              "OnlyFollowPosition": false,
+              "IsDestroyedWithParent": false
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\restart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 0
+                          },
+                          {
+                            "x": 90,
+                            "y": 0
+                          },
+                          {
+                            "x": 90,
+                            "y": 73
+                          },
+                          {
+                            "x": 1,
+                            "y": 73
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -7553,6 +9189,9 @@
             "objectName": "BubbleSetting"
           },
           {
+            "objectName": "BubbleEnding"
+          },
+          {
             "objectName": "JudulSetting"
           },
           {
@@ -7584,6 +9223,33 @@
           },
           {
             "objectName": "Score"
+          },
+          {
+            "objectName": "ScoreResult"
+          },
+          {
+            "objectName": "ScoreTertinggi"
+          },
+          {
+            "objectName": "Slamet"
+          },
+          {
+            "objectName": "Restart"
+          },
+          {
+            "objectName": "Restart2"
+          },
+          {
+            "objectName": "Kembali"
+          },
+          {
+            "objectName": "Lanjutkan"
+          },
+          {
+            "objectName": "PoinSaya"
+          },
+          {
+            "objectName": "PoinTertinggi"
           }
         ]
       },
@@ -7679,7 +9345,7 @@
                 "value": "Sticker::Sticker::Stick"
               },
               "parameters": [
-                "Simpan",
+                "Restart2",
                 "Sticker",
                 "BubbleSetting",
                 ""
@@ -7691,6 +9357,17 @@
               },
               "parameters": [
                 "JudulSetting",
+                "Sticker",
+                "BubbleSetting",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Lanjutkan",
                 "Sticker",
                 "BubbleSetting",
                 ""
@@ -7811,6 +9488,83 @@
                 "warna[level].warna",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Restart",
+                "Sticker",
+                "BubbleEnding",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Kembali",
+                "Sticker",
+                "BubbleEnding",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "PoinSaya",
+                "Sticker",
+                "BubbleEnding",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "PoinTertinggi",
+                "Sticker",
+                "BubbleEnding",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "ScoreTertinggi",
+                "Sticker",
+                "BubbleEnding",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "ScoreResult",
+                "Sticker",
+                "BubbleEnding",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Sticker::Sticker::Stick"
+              },
+              "parameters": [
+                "Slamet",
+                "Sticker",
+                "BubbleEnding",
+                ""
+              ]
             }
           ],
           "events": [
@@ -7819,6 +9573,7 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
+              "folded": true,
               "name": "Soal",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7883,6 +9638,7 @@
               "colorG": 231,
               "colorR": 248,
               "creationTime": 0,
+              "folded": true,
               "name": "Portal",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8131,6 +9887,15 @@
                     "\"linear\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Timer\""
                   ]
                 }
               ]
@@ -8442,6 +10207,7 @@
           "colorG": 87,
           "colorR": 139,
           "creationTime": 0,
+          "folded": true,
           "name": "Click",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8817,6 +10583,7 @@
           "colorG": 211,
           "colorR": 126,
           "creationTime": 0,
+          "folded": true,
           "name": "Timer",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8874,7 +10641,20 @@
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 5,
+          "colorG": 117,
+          "colorR": 65,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Result",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -8892,9 +10672,99 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Quit"
+                    "value": "PauseTimer"
                   },
                   "parameters": [
+                    "",
+                    "\"Timer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Ending\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                  },
+                  "parameters": [
+                    "BubbleEnding",
+                    "Tween",
+                    "\"\"",
+                    "415",
+                    "125",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "ScoreResult",
+                    "Text",
+                    "=",
+                    "score"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Kembali",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"LoadingHome\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "Restart",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Loading3Portal\"",
                     ""
                   ]
                 }
@@ -9088,7 +10958,7 @@
           "isLocked": false,
           "name": "Ending",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
