@@ -16,33 +16,47 @@
         ]
     },
     "2": {
-        "color_code": {
-            "merah": "#FF4500",
-            "hijau": "#32CD32",
-            "kuning": "#FFD700",
-            "biru": "#1E90FF"
-        },
-        "nama_warna": [
-            "merah",
-            "hijau",
-            "kuning",
-            "biru"
+        "warna": [
+            {
+                "nama":"merah",
+                "code":"#FF0000"
+            },
+            {
+                "nama":"hijau",
+                "code":"#00FF00"
+            },
+            {
+                "nama":"biru",
+                "code":"#0000FF"
+            },
+            {
+                "nama":"kuning",
+                "code":"#FFFF00"
+            }
         ]
     },
     "3": {
-        "color_code": {
-            "merah": "#FF1A12",
-            "hijau": "#1EFF00",
-            "kuning": "#FFEE00",
-            "biru": "#1DEDEC",
-            "hitam": "#000000"
-        },
-        "nama_warna": [
-            "merah",
-            "hijau",
-            "kuning",
-            "biru",
-            "hitam"
+        "warna": [
+            {
+                "nama":"merah",
+                "code":"#FF0000"
+            },
+            {
+                "nama":"hijau",
+                "code":"#00FF00"
+            },
+            {
+                "nama":"biru",
+                "code":"#0000FF"
+            },
+            {
+                "nama":"kuning",
+                "code":"#FFFF00"
+            },
+            {
+                "nama":"hitam",
+                "code":"#000000"
+            }
         ]
     }
 }
