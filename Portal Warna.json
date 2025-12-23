@@ -1505,7 +1505,7 @@
       "name": "Loading",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -2070,6 +2070,7 @@
           ]
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Link",
           "include": {
             "includeConfig": 0
@@ -4581,7 +4582,7 @@
       "name": "PilihLevel",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -5915,7 +5916,7 @@
       "name": "3Portal",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -5931,7 +5932,7 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.4481978045410363,
-        "windowMask": false,
+        "windowMask": true,
         "selectedLayer": ""
       },
       "objectsGroups": [
@@ -12978,7 +12979,7 @@
       "name": "4Portal",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -20097,7 +20098,7 @@
       "name": "5Portal",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
